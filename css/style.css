@@ -1,0 +1,98 @@
+header{
+    background-color: chocolate;
+    color:aliceblue;
+    text-align: center;
+    font-size:xx-large;
+    text-transform: capitalize;
+    padding: px;
+
+}
+
+table{
+    text-transform: capitalize;
+    border: solid black;
+    border-collapse: collapse;
+
+}
+th,td{
+    border: solid black;
+    border-collapse: collapse;
+    padding: 10px 20px;
+}
+tbody{
+    background-color: aliceblue;
+}
+
+#container{
+    background:#b8b4b4;
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+   
+}
+nav{
+    background-color: blanchedalmond;
+    overflow: hidden;
+}
+nav ul{
+list-style-type: none;
+
+}
+nav ul li{
+    float:left;
+    border-right:solid 1px #000;
+    padding:6px 10px;
+}
+nav li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:black;
+    font-weight:bold;
+    padding:6px 10px;
+}
+.active{
+    background-color: aquamarine;
+}
+.menu{
+    margin:0;
+    padding-left: 0;
+
+}
+nav li:hover{
+    background-color: azure;
+}
+form{
+    margin: 2px;
+    padding: 100px;
+}
+.form1{
+    display: table-row;
+}
+label, input{
+    margin: 2px;
+}
+div{
+    display: table-row;
+}
+.link{
+    text-align: center;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    
+}
+
+footer{
+    padding-bottom: 20px;
+    background-color: rgb(103, 78, 78);
+    text-align: center;
+    text-decoration: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.contact{
+    padding: 50px;
+}

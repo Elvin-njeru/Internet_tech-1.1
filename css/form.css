@@ -1,0 +1,34 @@
+
+input{
+    border-radius: 10px;
+}
+input:valid{
+    background-color: lightgreen;
+    border: 2px solid green;
+}
+input:invalid:required{
+    box-shadow: 0 0 5px 1px red;
+}
+button:hover{
+    background-color: red;
+    
+}
+button{
+    border-style: dashed;
+    align-self: center;
+}
+select{
+    border-radius: 10px;
+}
+select:valid{
+    background-color: lightgreen;
+    border: 2px solid green;
+}
+textarea{
+    border: 1px solid black;
+    background-color: brown;
+
+}
+p>label{
+    display: block;
+}
